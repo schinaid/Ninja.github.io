@@ -1,0 +1,131 @@
+
+<html>
+	<head>
+	
+		<title> Projeto Empresa - Tela Principal </title>
+		<meta name="author" content="Anderson Alves Schinaid">
+		<meta http-equiv="refresh" content="30">
+		<meta name="description" content="Site para o grupo Abril">
+		<meta charset="UTF-8">
+		
+		<link rel="stylesheet" type="text/css" href="TelaPrincipal.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script> 
+			
+			$(document).ready(function(){
+				$(".artemarcial").click(function(){
+					$(".menuItemArteMarc").slideToggle("show");
+					$(".menuItemArmasNin").hide();
+				});
+			});
+			
+			$(document).ready(function(){
+				$(".armasninjas").click(function(){
+					$(".menuItemArmasNin").slideToggle("show");
+					$(".menuItemArteMarc").hide();
+					
+				});
+			});
+			
+		</script>
+		
+	</head>
+	<body>
+	
+	<!-- Barra Superior -->
+	
+		<div class="MenuSup">
+			
+			<div class="MenuSupInt">
+			
+				<div class="gallery">
+					<a target="_self" href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\TelaPrincipal.html">
+						<img src="ninjas4501.png" alt="Mountains" width="225" height="145">
+					</a>
+				</div>
+				
+			</div>
+			
+				<ul class="menu">
+					<li class="menuItem">
+						<a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\TelaPrincipal.html"> 
+							<i class="fa fa-home" style="font-size:21px"></i>
+						</a>
+					</li>
+					<li class="menuItem"><a href="#news" class="artemarcial"> Arte Marciais </a></li> <!-- Taekwondo, muay thai, karate, kung-fu,box, kick-boxing -->
+					<li class="menuItem"><a href="#news" class="armasninjas"> Armas de Ninjas </a></li>
+					<li class="menuItem"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\RoupaNinja.html"> Roupa de Ninja </a></li>
+					<li class="menuItem"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\TelaAbout.html">Contato</a></li>
+				</ul>
+			
+			<div class="pesquisa">
+				<form action="/action_page.php">
+					<input type="text" name="firstname" value="Pesquisar">
+					<input type="submit" value="Pesquisar" />
+				</form> 
+			</div>
+		</div>
+		
+		<div class="menuItemArteMarc">
+			<div class="row">
+				<div class="column">
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Taekwondo.html"> Taekwondo </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Karate.html"> Karate </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\MuayThai.html"> Muay Tai </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Kung-fu.html"> Kung Fu </a></p>
+				</div>
+				<div class="column">
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Box.html"> Boxe </a></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="menuItemArmasNin">
+			<div class="row">
+				<div class="column">
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Espada.html"> Espada </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Shuriken.html"> Shuriken </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Fukiya.html"> Fukiya </a></p>
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Kusari-fundo.html"> Kusari-fundo </a></p>
+				</div>
+				<div class="column">
+					<p class="itens"><a href="C:\Users\Alchemist_call\Desktop\Abril\webite\HTML\Site\html\Kusarigama.html"> Kusarigama </a></p>
+				</div>
+			</div>
+		</div>
+		
+	<!-- Menu Superior -->
+	
+	<div id="blocoCentro">
+	
+		<div id="titulo">
+			<h1> Taekwondo </h1>
+		</div>	
+		
+		<div id="galery">
+			<img src="taekwondo.jpg" alt="Fjords" >
+		</div>
+		
+		<div id="conteudoRoupa">
+			<p>
+				Taekwondo (em coreano: 태권도; AFI: [tʰɛk͈wʌndo]) , também grafado tae kwon do,[1] ou TKD, pronunciado "Tê quón dô", é uma arte marcial que originou um esporte de combate. Hoje em dia, é um desporto difundido em todos os continentes.
+
+				O nome "taekwondo" se origina da fusão de três palavras coreanasː Tae (Pés), kwon (mãos) e Do (espírito/caminho). Em sentido global, taekwondo indica a técnica de combate sem armas para defesa pessoal, envolvendo destreza no emprego das mãos e punhos, de pontapés voadores, de esquivas e intercepções de golpes com as mãos, braços ou pés, para a rápida destruição do oponente. Hoje em dia, o taekwondo tornou-se olímpico, e, em muitas academias, pratica-se o taekwondo olímpico. Basicamente, é um desporto de chutes com muita explosão. Mais precisamente, 30% de socos e 70% de chutes.
+			</p>
+			<p>
+				Nos Estados Unidos, país onde o caratê era a arte marcial predominante nos anos 1980 e 1990, o taekwondo foi, por muito tempo, "erroneamente" chamado de "caratê coreano". As artes marciais coreanas vêm se desenvolvendo ao longo dos anos, mostrando que a Ásia não se limita apenas ao Japão ou à China. O taekwondo é bem mais que medalhas, títulos ou promoções dadas aos vencedores de "competições" por aí afora. O taekwondo é a capacidade de vencer uma dificuldade pessoal, é desenvolver outras áreas da vida pessoal por meio da ética empregada no treinamento do taekwondo.
+
+				Nos Jogos Olímpicos de Verão de 1988, teve seu "batismo de fogo", quando foi um desporto de exibição, continuando com este status nos Jogos Olímpicos de Verão de 1992. Em 1993, o desporto foi adicionado ao programa olímpico oficial, integrando o programa a partir dos Jogos Olímpicos de 2000.[2]
+			</p>
+		<div>
+		
+		
+	</div>
+	
+	
+	
+	</body>
+</html>

@@ -1,0 +1,257 @@
+body{
+	
+	background-color: #e0e0e0;
+}
+
+
+h2{
+	color: #ffffff;
+	font-family: Lucida Sans;
+}
+
+.MenuSup{
+	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 200px;
+	background-color: #333333;
+	z-index: 1;
+	
+}
+
+div.gallery {
+	position: absolute;
+	left: 30px;
+    margin: 5px;
+    float: left;
+    width: 220px;
+}
+
+
+.MenuSupInt{
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 125px;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.menu {
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #333333;
+    list-style-type: none;
+	font-size: 18px;
+	
+}
+
+.menuItem {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+	
+}
+
+li a:hover {
+    background-color: #ffffff;
+	color: #000000;
+}
+
+.BlocoContato{
+	position: absolute;
+	margin: 0;
+	top: 40%;
+	left: 30%;
+	width: 40%;
+	height: 50%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 10px 10px 0 grey;
+	
+}
+
+.tituloContato{
+	
+	position: absolute;
+	margin: 0;
+	background-color: #333333;
+	text-align: center;
+	width: 100%;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.contato{
+	
+	position: absolute;
+	font-family: Lucida Sans;
+	font-size: 18px;
+	top: 30%;
+	left: 20%;
+	width: 60%;
+	height: 50%;
+	margin:10px;
+}
+
+.conteudo{
+	
+	margin: auto;
+	font-family: Lucida Sans;
+	font-size: 18px;
+	background-color: #ff0000;
+	width: 50%;
+	padding: 10px;
+}
+
+.pesquisa{
+	
+	position: absolute;
+	bottom:0px;
+	right: 0px;
+	width: 350px;
+	height: 50px;
+	
+}
+
+input[type=text]{
+	
+	 width: 60%;
+    padding: 6px 10px;
+    margin: 10px 0px 5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 20px;
+    margin: 10px 5px 5px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menuItemArteMarc{
+	
+	position: fixed;
+	top: 30%;
+	width: 35%;
+	height: 200px;
+	border-bottom: 3px solid #ccc;
+	background-color: #333333;
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 5px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	display: none;
+	z-index: 2;
+	
+}
+
+.menuItemArmasNin{
+	
+	position: fixed;
+	top: 30%;
+	width: 35%;
+	height: 200px;
+	border-bottom: 3px solid #ccc;
+	background-color: #333333;
+	border-radius: 0px 0px 8px 8px;
+	-moz-border-radius: 0px 0px 8px 5px;
+	-webkit-border-radius: 0px 0px 8px 8px;
+	display: none;
+	z-index: 2;
+	
+}
+
+.menuSubItem{
+	
+	font-size: 18px;
+	list-style-type: none;
+	color: #ffffff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%;
+	box-sizing: border-box;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.itens{
+	
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+}
+
+.itens a{
+	
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.itens a:hover{
+	color: #d0d0d0;
+}
+
+#titulo{
+	
+	padding: 10px;
+	text-align: center;
+	color: #000000;
+	
+}
+
+#conteudoRoupa{
+	
+	font-size: 16px;
+	padding: 20px 50px;
+    text-align: justify;
+}
+
+#galery img{
+	
+	width: 700px;
+	height:	450px;
+	padding: 10px;
+}
+
+#blocoCentro{
+	
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	background-color: white;
+	text-align: center;
+	margin-left: -400px;
+	width: 800px;
+	height: auto;
+	
+}
